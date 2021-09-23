@@ -1,11 +1,11 @@
-# Building_Car_Detector_ISPRS
+#Building_Car_Detector_ISPRS#
 
 DL model to detect Cars and Building using Unet and Unet2 Image Segmentation.
 Framework : `Pytorch`
 Dataset used : `ISPRS Aerial Dataset` [link](https://www2.isprs.org/commissions/comm2/wg4/benchmark/2d-sem-label-potsdam/)
 Programing Language : `Python3.6`
 
-##Requirements:
+##Requirements:##
 
 torch>=1.8.1
 numpy>=1.18.5
@@ -16,29 +16,29 @@ tifffile>=2020.5.30
 matplotlib>=3.1.2
 patchify>=0.2.2
 
-##Approach:
+##Approach:##
 
 Large TIF files are converted into small patches of required (512 x 512) and (1024 x 1024) size with required mask and fed into network later.
 check ```Create_custom_ISPRS_Dataset.py``` for that
 
-flow chart:
+##flow chart:##
 ![Approch](Results/Flowchart.png)
 
-##Validations:
+##Validations:##
 1. Unet:
-Result1 ![unet1.1](Results/unet-1.png)
-Result2 ![unet1.2](Results/unet-4.png)
-Result3 ![unet1.3](Results/unet-5.png)
+Result1:![unet1.1](Results/unet-1.png)
+Result2:![unet1.2](Results/unet-4.png)
+Result3:![unet1.3](Results/unet-5.png)
 
 2. Unet2:
-Result1 ![unet2.1](Results/unet2-3.png)
-Result2 ![unet2.2](Results/unet2-7.png)
+Result1:![unet2.1](Results/unet2-3.png)
+Result2:![unet2.2](Results/unet2-7.png)
 
-##Sample Output:
+##Sample Output:##
 Unet:![unet_routput.png](Results/unet-output.png)
 Unet2:![unet2](Results/unet2-output.png)
 
-##Further Deployment and Optimization:
+##Further Deployment and Optimization:##
 1. More Model comparisions : RCNN , FCN , SEGnet
 
 2. Segmentation with Noise , and De-hazing Techniques
