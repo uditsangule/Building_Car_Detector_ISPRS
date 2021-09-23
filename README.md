@@ -7,10 +7,10 @@ Programing Language : `Python3.6`.
 
 ## Requirements:
 
-torch>=1.8.1.
-numpy>=1.18.5.
-sklearn>=0.0.
-scikit-learn>=0.23.1.
+torch>=1.8.1\
+numpy>=1.18.5\
+sklearn>=0.0\
+scikit-learn>=0.23.1\
 opencv-python>=4.1.2.30.
 tifffile>=2020.5.30.
 matplotlib>=3.1.2.
