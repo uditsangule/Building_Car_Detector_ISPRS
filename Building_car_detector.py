@@ -4,10 +4,8 @@ import warnings
 
 import cv2
 import matplotlib.pyplot as plt
-import numpy as np
 import torch
 from patchify import patchify, unpatchify
-from torchsummary import summary
 
 from Dataset_preprocess import ISPRS_Dataset
 from ML_model.model_evaluations import UNet, UNet2
@@ -252,7 +250,7 @@ if __name__ == '__main__':
     if predict:
         for k , model in model_dict.items():
             detector = Building_Car_Detector(model_name=k , model=model.to(device),input_size=input_size ,epoch=1,ds_choice=ds_choice)
-            sample_img = path +'/Sample_2.tif'
+            sample_img = path +'Results/Sample_2.tif'
             detector.predict(sample_img)
 
     else:

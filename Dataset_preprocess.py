@@ -1,8 +1,9 @@
 import os
-import numpy as np
-import cv2
 import time
+
+import cv2
 import torch
+
 from utils import *
 
 # Normalization parameters for pre-trained PyTorch models

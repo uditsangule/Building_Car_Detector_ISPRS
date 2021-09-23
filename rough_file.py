@@ -1,13 +1,14 @@
 
 import os
-import torch
+
 import cv2
-import numpy as np
-from keras.utils import normalize
-#from utils import *
-from matplotlib import pyplot as plt
-from patchify import patchify , unpatchify
 import tifffile
+import torch
+# from utils import *
+from matplotlib import pyplot as plt
+from patchify import patchify
+
+
 def check_slice_stick(slice , dir_path):
 	patch_size= 608
 	img_dataset = []

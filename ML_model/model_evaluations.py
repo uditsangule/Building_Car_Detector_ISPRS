@@ -1,5 +1,3 @@
-import torch
-import torch.nn.functional as F
 from ML_model.unet_helpers import *
 
 class UNet(nn.Module):

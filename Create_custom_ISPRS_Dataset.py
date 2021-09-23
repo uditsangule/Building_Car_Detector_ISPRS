@@ -1,9 +1,10 @@
+import os
 
 import cv2
-import os
-from utils import *
 import numpy as np
 from patchify import patchify
+
+from utils import *
 
 
 def desired_mask(mask):
