@@ -1,20 +1,19 @@
 # Building_Car_Detector_ISPRS
 
-DL model to detect Cars and Building using Unet and Unet2 Image Segmentation.
-Framework : `Pytorch`.
-Dataset used : `ISPRS Aerial Dataset` [link](https://www2.isprs.org/commissions/comm2/wg4/benchmark/2d-sem-label-potsdam/).
-Programing Language : `Python3.6`.
-
+DL model to detect Cars and Building using Unet and Unet2 Image Segmentation.\
+Framework : `Pytorch`.\
+Dataset used : `ISPRS Aerial Dataset` [link](https://www2.isprs.org/commissions/comm2/wg4/benchmark/2d-sem-label-potsdam/).\
+Programing Language : `Python3.6`.\
 ## Requirements:
 
 torch>=1.8.1\
 numpy>=1.18.5\
 sklearn>=0.0\
 scikit-learn>=0.23.1\
-opencv-python>=4.1.2.30.
-tifffile>=2020.5.30.
-matplotlib>=3.1.2.
-patchify>=0.2.2.
+opencv-python>=4.1.2.30\
+tifffile>=2020.5.30\
+matplotlib>=3.1.2\
+patchify>=0.2.2\
 
 ## Approach:
 
@@ -26,13 +25,13 @@ check ```Create_custom_ISPRS_Dataset.py``` for that.
 
 ## Validations:
 1. Unet:
-Result1:![unet1.1](Results/unet-1.png)
-Result2:![unet1.2](Results/unet-4.png)
-Result3:![unet1.3](Results/unet-5.png)
+![unet1.1](Results/unet-1.png)
+![unet1.2](Results/unet-4.png)
+![unet1.3](Results/unet-5.png)
 
 2. Unet2:
-Result1:![unet2.1](Results/unet2-3.png)
-Result2:![unet2.2](Results/unet2-7.png)
+![unet2.1](Results/unet2-3.png)
+![unet2.2](Results/unet2-7.png)
 
 ## Sample Output:
 Unet:![unet_routput.png](Results/unet-output.png)
@@ -47,6 +46,6 @@ Unet2:![unet2](Results/unet2-output.png)
 
 3. Dataset Mixing with other Aerial Dataset e.g: DSLT , COWC.
 
-
+Contact me: ```uditsangule@gmail.com```
 
 
